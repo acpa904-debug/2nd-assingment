@@ -557,7 +557,7 @@ margin-top: 16px;
     }
 
     /* ফুটার সেকশন */
-    .footer_links {
+    .footer_links{
         flex-direction: column;
         display: flex;
         justify-content: center;
