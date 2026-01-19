@@ -233,7 +233,7 @@ font-size: 1rem;
     "exclusive exclusive resources";
     gap: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease,
+    transition: transform 0.3s ease;
 }
 
 .card{
@@ -477,3 +477,91 @@ margin-top: 16px;
     margin-top: 20px;
 }
 
+/* responcive for mobile */
+
+@media screen and (max-width: 576px) {
+    
+    /* হেডার সেকশন */
+    #header_section {
+        flex-direction: column; 
+        gap: 20px;
+        text-align: center;
+    }
+
+    .nav_link {
+        padding: 0;
+    }
+
+    /* ব্যানার বা হিরো সেকশন */
+    .text_section h1 {
+        font-size: 2.5rem; 
+    }
+
+    .banner_img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .banner_container_button {
+        flex-direction: row; 
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .banner_container_button button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    /* স্ট্যাটাস সেকশন (150K+, 200+ ইত্যাদি) */
+    .stats_container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+       
+        gap: 25px;
+    }
+
+    /* Why Choose TechWave - গ্রিড ফিক্স */
+    .grid_wrapper {
+        display: flex;
+        flex-direction: column; 
+        padding: 0 15px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    /* ভিডিও বা এপিসোড সেকশন */
+    
+    .video_section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video {
+        width: 100%;
+        max-width: 350px;
+    }
+
+    /* হোস্ট (Alex Kumar) সেকশন */
+    .meet_the_host_section {
+        flex-direction: column; 
+        padding: 30px 15px;
+        text-align: center;
+        margin: 0 10px;
+    }
+
+    .social_icons {
+        justify-content: center;
+    }
+
+    /* ফুটার সেকশন */
+    .footer_links {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}
