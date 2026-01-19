@@ -182,7 +182,6 @@ body {
 
 /* stats_container style */
 .stats_container{
-    background-color: #0f0817;
     display: flex;
     width: 90% ;
     max-width: 1200px;
@@ -268,7 +267,6 @@ font-size: 1rem;
 margin-top: 16px;
 }
 
-/* 888888888888888888888888888888888 */
 /* Pura section er background */
 .Featured {
     background-color: #0f0817; 
@@ -348,5 +346,71 @@ margin-top: 16px;
 }
 
 
+.Meet_section {
+    background-color: #0f0817; 
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.Meet_section h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+/* Main Container: Image ebong Text pashapashi rakhar jonno */
+.meet_the_host_section {
+    background-color: #1a0f2e;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    border-radius: 40px; 
+    gap: 40px;
+    text-align: left;
+}
+
+/* Image styling */
+.host_img_container {
+    flex-shrink: 0;
+}
+
+.host_img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%; /* Circle image */
+    object-fit: cover;
+}
+
+/* Text section styling */
+.text_section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.text_section p {
+    font-size: 16px;
+    color: #a39bb3; /* Ash color text */
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Social icons styling */
+.social_icons {
+    display: flex;
+    gap: 15px;
+}
+
+.social_icons img {
+    width: 50px;
+    height: 50px;
+   border: 1px solid #533C72;
+   border-radius: 50px;
+    cursor: pointer;
+   
+}
 
 
